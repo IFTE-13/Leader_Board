@@ -1,0 +1,11 @@
+.sec {
+  border-bottom: 1px dashed black;
+}
+
+.right {
+  border-right: 1px dashed black;
+}
+
+.vl {
+  border-left: 1px dashed black;
+}

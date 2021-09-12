@@ -1,0 +1,17 @@
+.react div i {
+  padding-top: 2px;
+  font-size: 14px;
+}
+
+.card-img-top {
+  height: 10rem;
+  object-fit: cover;
+}
+
+.card-img-top:hover {
+  opacity: 0.5;
+}
+
+.card-body {
+  background: #3b328b;
+}

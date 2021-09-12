@@ -1,0 +1,9 @@
+.carousel-img {
+  object-fit: cover;
+  height: 75vh;
+  width: 100%;
+}
+
+.stars {
+  color: goldenrod;
+}

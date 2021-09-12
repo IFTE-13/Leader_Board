@@ -1,0 +1,22 @@
+.price-body {
+  background: linear-gradient(to right, #231a60 0%, #3c338d 51%, #231a60 100%);
+}
+
+.mg {
+  border-bottom: 1px dashed black;
+  border-top: 1px dashed black;
+}
+
+.order {
+  background: linear-gradient(
+    to right,
+    rgb(63, 202, 255) 0%,
+    rgb(164, 255, 176) 100%
+  );
+  color: white;
+  border: none;
+}
+
+.order:hover {
+  color: #231a60;
+}

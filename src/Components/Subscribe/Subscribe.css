@@ -1,0 +1,8 @@
+.sub-body {
+  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+  height: 25vh;
+}
+
+.sub-text {
+  color: #22195e;
+}
