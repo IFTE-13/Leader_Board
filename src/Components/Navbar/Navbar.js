@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import nLogo from '../../icons/logo.png';
 
 const Navbar = () => {
     return (
         <div className="sticky-md-top">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
+                    <a className="navbar-brand" href="\">Leader Board</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -17,12 +16,12 @@ const Navbar = () => {
                                 <Link className="nav-link" to="/">HOME</Link>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a className="nav-link dropdown-toggle" href="\" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     USER
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">PROFILE</a></li>
-                                    <li><a class="dropdown-item" href="#">ANALYTICS</a></li>
+                                    <li><a class="dropdown-item" href="\profile">PROFILE</a></li>
+                                    <li><a class="dropdown-item" href="\anslytics">ANALYTICS</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item">
